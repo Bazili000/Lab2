@@ -1,0 +1,5 @@
+/home/admin/Documents/MEPhI Codes/3rd sem/lab2/build/CMakeFiles/MyQtProject.dir
+/home/admin/Documents/MEPhI Codes/3rd sem/lab2/build/CMakeFiles/edit_cache.dir
+/home/admin/Documents/MEPhI Codes/3rd sem/lab2/build/CMakeFiles/rebuild_cache.dir
+/home/admin/Documents/MEPhI Codes/3rd sem/lab2/build/CMakeFiles/MyQtProject_autogen_timestamp_deps.dir
+/home/admin/Documents/MEPhI Codes/3rd sem/lab2/build/CMakeFiles/MyQtProject_autogen.dir
