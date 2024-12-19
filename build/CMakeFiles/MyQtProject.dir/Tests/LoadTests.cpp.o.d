@@ -790,6 +790,8 @@ CMakeFiles/MyQtProject.dir/Tests/LoadTests.cpp.o: \
  /usr/include/qt6/QtConcurrent/qtconcurrentversion.h \
  /usr/include/qt6/QtWidgets/QSpinBox \
  /usr/include/qt6/QtWidgets/qspinbox.h \
+ /usr/include/qt6/QtWidgets/QFileDialog \
+ /usr/include/qt6/QtWidgets/qfiledialog.h \
  /home/admin/Documents/MEPhI\ Codes/3rd\ sem/lab2/Tests/../Tests/FuncTests.h \
  /home/admin/Documents/MEPhI\ Codes/3rd\ sem/lab2/Tests/../Tests/../Randomizer.h \
  /home/admin/Documents/MEPhI\ Codes/3rd\ sem/lab2/Tests/../Tests/../Person.h \

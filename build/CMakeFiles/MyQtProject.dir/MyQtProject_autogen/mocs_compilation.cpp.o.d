@@ -776,6 +776,8 @@ CMakeFiles/MyQtProject.dir/MyQtProject_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtConcurrent/qtconcurrentversion.h \
  /usr/include/qt6/QtWidgets/QSpinBox \
  /usr/include/qt6/QtWidgets/qspinbox.h \
+ /usr/include/qt6/QtWidgets/QFileDialog \
+ /usr/include/qt6/QtWidgets/qfiledialog.h \
  /home/admin/Documents/MEPhI\ Codes/3rd\ sem/lab2/build/MyQtProject_autogen/EWIEGA46WW/../../../Tests/FuncTests.h \
  /usr/include/c++/14/iostream \
  /home/admin/Documents/MEPhI\ Codes/3rd\ sem/lab2/build/MyQtProject_autogen/EWIEGA46WW/../../../Tests/../Randomizer.h \

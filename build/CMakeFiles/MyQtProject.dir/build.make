@@ -210,12 +210,12 @@ MyQtProject: CMakeFiles/MyQtProject.dir/Tests/FuncTests.cpp.o
 MyQtProject: CMakeFiles/MyQtProject.dir/Tests/LoadTests.cpp.o
 MyQtProject: CMakeFiles/MyQtProject.dir/Tests/PersonManualTests.cpp.o
 MyQtProject: CMakeFiles/MyQtProject.dir/build.make
-MyQtProject: /usr/lib64/libQt6Widgets.so.6.8.0
-MyQtProject: /usr/lib64/libQt6Gui.so.6.8.0
-MyQtProject: /usr/lib64/libQt6Concurrent.so.6.8.0
+MyQtProject: /usr/lib64/libQt6Widgets.so.6.8.1
+MyQtProject: /usr/lib64/libQt6Gui.so.6.8.1
+MyQtProject: /usr/lib64/libQt6Concurrent.so.6.8.1
 MyQtProject: /usr/lib64/libGLX.so
 MyQtProject: /usr/lib64/libOpenGL.so
-MyQtProject: /usr/lib64/libQt6Core.so.6.8.0
+MyQtProject: /usr/lib64/libQt6Core.so.6.8.1
 MyQtProject: CMakeFiles/MyQtProject.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/admin/Documents/MEPhI Codes/3rd sem/lab2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable MyQtProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyQtProject.dir/link.txt --verbose=$(VERBOSE)

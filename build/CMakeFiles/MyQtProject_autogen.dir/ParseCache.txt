@@ -633,6 +633,7 @@
  mdp:/usr/include/qt6/QtGui/qwindowdefs.h
  mdp:/usr/include/qt6/QtWidgets/QApplication
  mdp:/usr/include/qt6/QtWidgets/QComboBox
+ mdp:/usr/include/qt6/QtWidgets/QFileDialog
  mdp:/usr/include/qt6/QtWidgets/QHeaderView
  mdp:/usr/include/qt6/QtWidgets/QLabel
  mdp:/usr/include/qt6/QtWidgets/QLineEdit
@@ -656,6 +657,7 @@
  mdp:/usr/include/qt6/QtWidgets/qcombobox.h
  mdp:/usr/include/qt6/QtWidgets/qdialog.h
  mdp:/usr/include/qt6/QtWidgets/qdialogbuttonbox.h
+ mdp:/usr/include/qt6/QtWidgets/qfiledialog.h
  mdp:/usr/include/qt6/QtWidgets/qframe.h
  mdp:/usr/include/qt6/QtWidgets/qgridlayout.h
  mdp:/usr/include/qt6/QtWidgets/qheaderview.h

@@ -794,6 +794,8 @@ CMakeFiles/MyQtProject.dir/Tests/FuncTests.cpp.o: \
  /usr/include/qt6/QtConcurrent/qtconcurrentversion.h \
  /usr/include/qt6/QtWidgets/QSpinBox \
  /usr/include/qt6/QtWidgets/qspinbox.h \
+ /usr/include/qt6/QtWidgets/QFileDialog \
+ /usr/include/qt6/QtWidgets/qfiledialog.h \
  /home/admin/Documents/MEPhI\ Codes/3rd\ sem/lab2/Tests/../Tests/LoadTests.h \
  /home/admin/Documents/MEPhI\ Codes/3rd\ sem/lab2/Tests/../Tests/OutputManager.h \
  /home/admin/Documents/MEPhI\ Codes/3rd\ sem/lab2/Tests/../Tests/PersonManualTests.h \

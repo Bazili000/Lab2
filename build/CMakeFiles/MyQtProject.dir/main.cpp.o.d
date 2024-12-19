@@ -775,6 +775,8 @@ CMakeFiles/MyQtProject.dir/main.cpp.o: \
  /usr/include/qt6/QtConcurrent/qtconcurrentversion.h \
  /usr/include/qt6/QtWidgets/QSpinBox \
  /usr/include/qt6/QtWidgets/qspinbox.h \
+ /usr/include/qt6/QtWidgets/QFileDialog \
+ /usr/include/qt6/QtWidgets/qfiledialog.h \
  /home/admin/Documents/MEPhI\ Codes/3rd\ sem/lab2/Tests/FuncTests.h \
  /usr/include/c++/14/iostream \
  /home/admin/Documents/MEPhI\ Codes/3rd\ sem/lab2/Tests/../Randomizer.h \
