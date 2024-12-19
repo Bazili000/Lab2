@@ -16,7 +16,6 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent) {
     tabWidget->addTab(functionalTestsTab, "Functional Tests");
     tabWidget->addTab(loadTestsTab, "Load Tests");
     tabWidget->addTab(manualPersonTestsTab, "Person Testings");
-    tabWidget->addTab(manualPersonTestsTab, "Person Testings");
 
     tabWidget->setTabPosition(QTabWidget::North);
     setCentralWidget(tabWidget);
@@ -41,6 +40,9 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent) {
     QString sortingParameter = sortingParameterComboBox->currentText();
     SortPersonData(personDataTable, sortingMethod, sortingParameter);
     });
+
+    connect(saveToFileButton, &QPushButton::clicked, this, &MainWindow::SaveToFileClicked);
+    connect(loadFromFileButton, &QPushButton::clicked, this, &MainWindow::LoadFromFileClicked);
 }
 
 
@@ -61,6 +63,9 @@ MainWindow::~MainWindow() {
     delete sortingParameterComboBox;
     delete personDataTable;
     delete manualPersonTestsTab;
+
+    delete saveToFileButton;
+    delete loadFromFileButton;
 }
 
 void MainWindow::setupFunctionalTestsTab() {
@@ -114,6 +119,12 @@ void MainWindow::setupPersonManualTestsTab() {
     dataVolumeSpinBox->setRange(1, 10000);
     dataVolumeSpinBox->setValue(100);
 
+    auto* fileButtonsLayout = new QHBoxLayout();
+    loadFromFileButton = new QPushButton("Load from File");
+    saveToFileButton = new QPushButton("Save to File");
+    fileButtonsLayout->addWidget(loadFromFileButton);
+    fileButtonsLayout->addWidget(saveToFileButton);
+
     layout->addWidget(new QLabel("Select Sorting Method:"));
     layout->addWidget(sortingMethodComboBox);
     layout->addWidget(new QLabel("Select Sorting Parameter:"));
@@ -123,8 +134,10 @@ void MainWindow::setupPersonManualTestsTab() {
     layout->addWidget(generatePersonDataButton);
     layout->addWidget(startSortingButton);
     layout->addWidget(clearDataButton);
+    layout->addLayout(fileButtonsLayout);
     layout->addWidget(personDataTable);
 }
+
 
 void MainWindow::applyDarkTheme() {
     setStyle(QStyleFactory::create("Fusion"));
@@ -161,3 +174,24 @@ void MainWindow::LoadTestsClicked() {
         RunLoadTests(output, loadTestsTable);
     });
 }
+
+void MainWindow::SaveToFileClicked() {
+    QString fileName = QFileDialog::getSaveFileName(this, "Save File", "", "Text Files (*.txt);;All Files (*)");
+    
+    if (fileName.isEmpty()) {
+        return;
+    }
+
+    SavePersonDataToFile(personDataTable, fileName);
+}
+
+void MainWindow::LoadFromFileClicked() {
+    QString fileName = QFileDialog::getOpenFileName(this, "Open File", "", "Text Files (*.txt);;All Files (*)");
+
+    if (fileName.isEmpty()) {
+        return;
+    }
+
+    LoadPersonDataFromFile(personDataTable, fileName);
+}
+

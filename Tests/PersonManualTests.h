@@ -22,3 +22,5 @@ void GenerateRandomPersonData(QTableWidget* table, int count);
 std::function<bool(const Person&, const Person&)> getComparator(const QString& parameter);
 
 void SortPersonData(QTableWidget* table, const QString& method, const QString& parameter);
+void SavePersonDataToFile(QTableWidget* table, const QString& fileName);
+void LoadPersonDataFromFile(QTableWidget* table, const QString& fileName);

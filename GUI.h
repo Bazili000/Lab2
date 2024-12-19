@@ -15,6 +15,7 @@
 #include <QMessageBox>
 #include <QtConcurrent>
 #include <QSpinBox>
+#include <QFileDialog>
 
 #include "Tests/FuncTests.h"
 #include "Tests/LoadTests.h"
@@ -49,6 +50,9 @@ private:
     QComboBox* sortingParameterComboBox;
     QTableWidget* personDataTable;
 
+    QPushButton *saveToFileButton;
+    QPushButton *loadFromFileButton;
+
     void setupFunctionalTestsTab();
     void setupLoadTestsTab();
     void setupPersonManualTestsTab();
@@ -57,4 +61,7 @@ private:
 
     void FuncTestsClicked();
     void LoadTestsClicked();
+
+    void SaveToFileClicked();
+    void LoadFromFileClicked();
 };
